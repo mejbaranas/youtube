@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="conteneur-logo">
+            <div class="icone-menu">☰</div>
+            <img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="YouTube" class="logo">
+        </div>
+        
+        <div class="conteneur-recherche">
+            <div class="barre-recherche">
+                <input type="text" class="champ-recherche" placeholder="Rechercher">
+                <button class="bouton-recherche">🔍</button>
+            </div>
+            <div class="icone-micro">🎤</div>
+        </div>
+        
+        <div class="conteneur-logo">
+            <div class="icone-creer">➕</div>
+            <div class="icone-apps">◫</div>
+            <div class="icone-notifications">🔔</div>
+            <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Profil" class="avatar-utilisateur" style="width:32px;height:32px;border-radius:50%;">
+        </div>
+    </header>
+
+    <!-- Barre latérale -->
+    <div class="barre-laterale">
+        <div class="section-barre-laterale">
+            <div class="element-barre-laterale actif">
+                <div class="icone-barre-laterale">🏠</div>
+                <div>Accueil</div>
+            </div>
+            <div class="element-barre-laterale">
+                <div class="icone-barre-laterale">🔍</div>
+                <div>Explorer</div>
+            </div>
+            <div class="element-barre-laterale">
+                <div class="icone-barre-laterale">🎬</div>
+                <div>Shorts</div>
+            </div>
+            <div class="element-barre-laterale">
+                <div class="icone-barre-laterale">📺</div>
+                <div>Abonnements</div>
+            </div>
+        </div>
+        
+        <div class="section-barre-laterale">
+            <div class="element-barre-laterale">
+                <div class="icone-barre-laterale">📚</div>
+                <div>Bibliothèque</div>
+            </div>
+            <div class="element-barre-laterale">
+                <div class="icone-barre-laterale">⏱️</div>
+                <div>Historique</div>
+            </div>
+            <div class="element-barre-laterale">
+                <div class="icone-barre-laterale">▶️</div>
+                <div>Vos vidéos</div>
+            </div>
+            <div class="element-barre-laterale">
+                <div class="icone-barre-laterale">👍</div>
+                <div>Vidéos "J'aime"</div>
+            </div>
+        </div>
+        
+        <div class="section-barre-laterale">
+            <div class="titre-barre-laterale">Abonnements</div>
+            <div class="element-barre-laterale">
+                <img src="https://randomuser.me/api/portraits/men/2.jpg" class="icone-barre-laterale" style="border-radius: 50%;object-fit:cover;">
+                <div>TechTutoriels</div>
+            </div>
+            <div class="element-barre-laterale">
+                <img src="https://randomuser.me/api/portraits/women/1.jpg" class="icone-barre-laterale" style="border-radius: 50%;object-fit:cover;">
+                <div>Cuisine Créative <span class="badge-verifie">✓</span></div>
+            </div>
+            <div class="element-barre-laterale">
+                <img src="https://randomuser.me/api/portraits/men/3.jpg" class="icone-barre-laterale" style="border-radius: 50%;object-fit:cover;">
+                <div>Voyages & Aventures</div>
+            </div>
+            <div class="element-barre-laterale">
+                <img src="https://randomuser.me/api/portraits/women/2.jpg" class="icone-barre-laterale" style="border-radius: 50%;object-fit:cover;">
+                <div>Productivité Max <span class="badge-verifie">✓</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenu-principal">
+        <div class="categories">
+            <div class="categorie active">Tout</div>
+            <div class="categorie">Musique</div>
+            <div class="categorie">Jeux vidéo</div>
+            <div class="categorie">Actualités</div>
+            <div class="categorie">Sport</div>
+            <div class="categorie">Apprentissage</div>
+            <div class="categorie">Mode</div>
+            <div class="categorie">Beauté</div>
+            <div class="categorie">Cuisine</div>
+            <div class="categorie">Voyages</div>
+            <div class="categorie">Technologie</div>
+            <div class="categorie">Cinéma</div>
+        </div>
+
+        <div class="grille-videos">
+            <!-- Vidéo 1 -->
+            <div class="carte-video">
+                <div class="conteneur-miniature">
+                    <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Miniature" class="miniature">
+                    <span class="duree-video">10:30</span>
+                </div>
+                <div class="info-video">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Chaîne" class="avatar-chaine">
+                    <div class="details-video">
+                        <div class="titre-video">Tutoriel complet pour débutants - Apprenez les bases en 10 minutes</div>
+                        <div class="nom-chaine">TechTutoriels <span class="badge-verifie">✓</span></div>
+                        <div class="statistiques-video">1,2M vues • il y a 3 mois</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vidéo 2 -->
+            <div class="carte-video">
+                <div class="conteneur-miniature">
+                    <img src="https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg" alt="Miniature" class="miniature">
+                    <span class="duree-video">15:45</span>
+                </div>
+                <div class="info-video">
+                    <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Chaîne" class="avatar-chaine">
+                    <div class="details-video">
+                        <div class="titre-video">Les meilleures astuces cuisine que personne ne connaît</div>
+                        <div class="nom-chaine">Cuisine Créative <span class="badge-verifie">✓</span></div>
+                        <div class="statistiques-video">5,7M vues • il y a 1 an</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vidéo 3 -->
+            <div class="carte-video">
+                <div class="conteneur-miniature">
+                    <img src="https://i.ytimg.com/vi/PkZNo7MFNFg/maxresdefault.jpg" alt="Miniature" class="miniature">
+                    <span class="duree-video">6:40</span>
+                </div>
+                <div class="info-video">
+                    <img src="https://randomuser.me/api/portraits/men/5.jpg" alt="Chaîne" class="avatar-chaine">
+                    <div class="details-video">
+                        <div class="titre-video">Apprendre JavaScript en 1 heure - Cours intensif</div>
+                        <div class="nom-chaine">Dev Tutorials <span class="badge-verifie">✓</span></div>
+                        <div class="statistiques-video">3,1M vues • il y a 4 mois</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vidéo 4 -->
+            <div class="carte-video">
+                <div class="conteneur-miniature">
+                    <img src="https://i.ytimg.com/vi/7NOSDKb0HlU/maxresdefault.jpg" alt="Miniature" class="miniature">
+                    <span class="duree-video">8:12</span>
+                </div>
+                <div class="info-video">
+                    <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Chaîne" class="avatar-chaine">
+                    <div class="details-video">
+                        <div class="titre-video">Comment organiser votre vie en 7 jours - Défi</div>
+                        <div class="nom-chaine">Productivité Max <span class="badge-verifie">✓</span></div>
+                        <div class="statistiques-video">890K vues • il y a 2 semaines</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vidéo 5 -->
+            <div class="carte-video">
+                <div class="conteneur-miniature">
+                    <img src="https://i.ytimg.com/vi/RK1K2bCg4J8/maxresdefault.jpg" alt="Miniature" class="miniature">
+                    <span class="duree-video">12:34</span>
+                </div>
+                <div class="info-video">
+                    <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Chaîne" class="avatar-chaine">
+                    <div class="details-video">
+                        <div class="titre-video">Les secrets du développement web moderne</div>
+                        <div class="nom-chaine">Code Master</div>
+                        <div class="statistiques-video">1,5M vues • il y a 5 mois</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vidéo 6 -->
+            <div class="carte-video">
+                <div class="conteneur-miniature">
+                    <img src="https://i.ytimg.com/vi/yzTuBuRdAyA/maxresdefault.jpg" alt="Miniature" class="miniature">
+                    <span class="duree-video">18:22</span>
+                </div>
+                <div class="info-video">
+                    <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Chaîne" class="avatar-chaine">
+                    <div class="details-video">
+                        <div class="titre-video">Routine matinale pour une journée productive</div>
+                        <div class="nom-chaine">Healthy Life</div>
+                        <div class="statistiques-video">2,3M vues • il y a 8 mois</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vidéo 7 -->
+            <div class="carte-video">
+                <div class="conteneur-miniature">
+                    <img src="https://i.ytimg.com/vi/6pxRHBw-k8M/maxresdefault.jpg" alt="Miniature" class="miniature">
+                    <span class="duree-video">22:18</span>
+                </div>
+                <div class="info-video">
+                    <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Chaîne" class="avatar-chaine">
+                    <div class="details-video">
+                        <div class="titre-video">Découverte des merveilles naturelles du monde</div>
+                        <div class="nom-chaine">Voyages & Aventures</div>
+                        <div class="statistiques-video">3,4M vues • il y a 6 mois</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vidéo 8 -->
+            <div class="carte-video">
+                <div class="conteneur-miniature">
+                    <img src="https://i.ytimg.com/vi/0Puv0Pss33M/maxresdefault.jpg" alt="Miniature" class="miniature">
+                    <span class="duree-video">14:15</span>
+                </div>
+                <div class="info-video">
+                    <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="Chaîne" class="avatar-chaine">
+                    <div class="details-video">
+                        <div class="titre-video">10 recettes de desserts healthy en moins de 10 minutes</div>
+                        <div class="nom-chaine">Healthy Cooking</div>
+                        <div class="statistiques-video">1,8M vues • il y a 3 semaines</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vidéo 9 -->
+            <div class="carte-video">
+                <div class="conteneur-miniature">
+                    <img src="https://i.ytimg.com/vi/7wtfhZwyrcc/maxresdefault.jpg" alt="Miniature" class="miniature">
+                    <span class="duree-video">25:30</span>
+                </div>
+                <div class="info-video">
+                    <img src="https://randomuser.me/api/portraits/men/6.jpg" alt="Chaîne" class="avatar-chaine">
+                    <div class="details-video">
+                        <div class="titre-video">Les lieux les plus mystérieux de la planète - Documentaire</div>
+                        <div class="nom-chaine">World Mysteries</div>
+                        <div class="statistiques-video">4,2M vues • il y a 1 an</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
